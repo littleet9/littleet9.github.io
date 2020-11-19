@@ -1,0 +1,114 @@
+body {
+	background: black url("../media/LakeBrandtSunset.png") no-repeat top right;
+}
+h1 {
+	font-size: 36px;
+	color: #FFC857;
+	margin: 36px 0px 5px 0px;
+}
+hr {
+	border: 1px solid #FFC857;
+}
+section {
+	background-color: rgba(0, 0, 0, 75%);
+}
+p {
+	padding: 2px 10px 2px 10px;
+	font-size: 16px;
+}
+/*----------------- Logos and Links --------------*/
+#ecrsLogo {
+	float: left;
+	height: 24px;
+	width: 133px;
+	padding: 10px 5px 10px 3px;
+}
+.githubLogo {
+	float: left;
+	height: 50px;
+	width: 50px;
+	padding: 0px 5px 10px 10px;
+	background-color: red;
+}
+#sampleWebPageLogo {
+	float: left;
+	height: 50px;
+	width: 45px;
+	padding: 0px 5px 10px 10px;
+}
+/*--------------------------------------------------*/
+/*----------------- Awards  ------------------------*/
+.sideListArticle {
+	display: grid;
+	grid-template: "title title title" 
+				   "award1 award2 award3"
+				   "other other other" 1fr;
+}
+#awardsArticle p {
+	grid-area: other;
+}
+#awardsArticle h1{
+	grid-area: title;
+}
+#awardsArticle article{
+	margin: 5px 5px 5px 5px;
+}
+#awardsArticleSecond {
+	padding-left: 20px;
+	border: 0px solid #5a5a5a;
+	border-right-width: 1px;
+	border-left-width: 1px;
+}
+/*--------------------------------------------------*/
+/*----------------- Projects  ----------------------*/
+#projectsArticle h1 {
+	grid-area: title;
+}
+#CCFproject {
+	padding-right: 20px;
+	border: 0px solid #5a5a5a;
+	border-right-width: 1px;
+}
+/*--------------------------------------------------*/
+/*----------------- Skills  ------------------------*/
+table {
+	min-width: 100%;
+	background-color: black;
+	text-shadow: 1px 1px 5px black;
+}
+td {
+	padding: 10px 25px 10px 25px;
+	height: 150px;
+}
+ul.skillsUL {
+	padding: 0px;
+}
+ul.skillsUL li{
+	list-style-type: none;
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	font-size: 18px;
+}
+.upcoming {
+	background-color: rgb(125, 125, 255);
+	width: 25%;
+}
+.workingOn {
+	background-color: rgb(255, 210, 125);
+	width: 25%;
+}
+.proficient {
+	background-color: rgb(90, 128, 90);
+}
+th {
+	padding: 10px 25px 10px 25px;
+	font-weight: bold;
+	font-size: 26px;
+}
+/*--------------------------------------------------*/
+/*----------------- Work  --------------------------*/
+#SpineLeafDemo {
+	width: 320px;
+	height: 180px;
+	float: right;
+}
