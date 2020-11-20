@@ -42,7 +42,7 @@ function initNav(){
 	//LinkedIn
 	let linkedIn = document.createElement('img');
 		linkedIn.setAttribute('id', 'linkedInLink');
-		linkedIn.setAttribute('src', '../media/LinkedInLogo.png');
+		linkedIn.setAttribute('src', 'media/LinkedInLogo.png');
 		linkedIn.setAttribute('height', '35%');
 		linkedIn.setAttribute('width', '35%');
 	let liLinkedIn = document.createElement('li');
@@ -52,7 +52,7 @@ function initNav(){
 	//youtube
 	let youtube = document.createElement('img');
 		youtube.setAttribute('id', 'youtubeLink');
-		youtube.setAttribute('src', '../media/youtubeLogo.png');
+		youtube.setAttribute('src', 'media/youtubeLogo.png');
 		youtube.setAttribute('height', '50%');
 		youtube.setAttribute('width', '50%');
 	let liYoutube = document.createElement('li');
@@ -62,7 +62,7 @@ function initNav(){
 	//Resume
 	let resume = document.createElement('img');
 		resume.setAttribute('id', 'resumeLink');
-		resume.setAttribute('src', '../media/resumeLogo.png');
+		resume.setAttribute('src', 'media/resumeLogo.png');
 		resume.setAttribute('height', '35%');
 		resume.setAttribute('width', '35%');
 		resume.setAttribute('tooltip', 'Resume');
@@ -113,10 +113,10 @@ function initNavLinks(){
 	}, false);
 	linkedIn.addEventListener('mouseover', ()=>{
 		linkedIn.style.cursor = "pointer";
-		linkedIn.setAttribute('src', "../media/LinkedInLogoHover.png");
+		linkedIn.setAttribute('src', "media/LinkedInLogoHover.png");
 	}, false);
 	linkedIn.addEventListener('mouseout', ()=>{
-		linkedIn.setAttribute('src', "../media/LinkedInLogo.png");
+		linkedIn.setAttribute('src', "media/LinkedInLogo.png");
 	}, false);
 	//Youtube
 	let youtube = document.getElementById('youtubeLink');
@@ -125,10 +125,10 @@ function initNavLinks(){
 	}, false);
 	youtube.addEventListener('mouseover', ()=>{
 		youtube.style.cursor = "pointer";
-		youtube.setAttribute('src', "../media/youtubeLogoHover.png");
+		youtube.setAttribute('src', "media/youtubeLogoHover.png");
 	}, false);
 	youtube.addEventListener('mouseout', ()=>{
-		youtube.setAttribute('src', "../media/youtubeLogo.png");
+		youtube.setAttribute('src', "media/youtubeLogo.png");
 	}, false);
 	//Resume
 	let resume = document.getElementById('resumeLink');
@@ -137,10 +137,10 @@ function initNavLinks(){
 	}, false);
 	resume.addEventListener('mouseover', ()=>{
 		resume.style.cursor = "pointer";
-		resume.setAttribute('src', "../media/resumeLogoHover.png");
+		resume.setAttribute('src', "media/resumeLogoHover.png");
 	}, false);
 	resume.addEventListener('mouseout', ()=>{
-		resume.setAttribute('src', "../media/resumeLogo.png");
+		resume.setAttribute('src', "media/resumeLogo.png");
 	}, false);
 	//Sytles
 	let ulLinks = document.getElementById('ulLinks');
@@ -218,13 +218,13 @@ function initNavButtons(){
 				break;
 			case('aboutButton'):
 				ele.addEventListener('click', ()=>{
-					preLoadImage("../media/mountainrange.png");
+					preLoadImage("media/mountainrange.png");
 					window.location.href = "about.html";
 				}, false);
 				break;
 			case('careerButton'):
 				ele.addEventListener('click', ()=>{
-					preLoadImage("../media/LakeBrandtSunset.png");
+					preLoadImage("media/LakeBrandtSunset.png");
 					window.location.href = "career.html";
 				}, false);
 				break;
