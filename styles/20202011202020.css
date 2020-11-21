@@ -1,6 +1,6 @@
 body {
 	background: black url("../media/Sunrise.jpg") no-repeat center top;
-	width: 64%;
+	width: 100%;
 	margin: auto;
 }
 h1 {
@@ -9,24 +9,14 @@ h1 {
 	text-shadow: 0px 15px 20px black;
 	padding: 1px 1px 1px 1px;
 	margin: 1px 1px 1px 1px;
-	
-}
-h2 {
-	color: #FFC857;
-	text-align: center;
-	text-shadow: 2px 2px 7px black;
-	max-width: 300px;
-	margin: 50px 0px 0px 0px;
 }
 ul li {
-	display: block;
 	list-style: none;
-	float:left;
+	float: right;
 	text-align:left;
 }
 ul {
-	display: block;
-	min-width: 1100px;
+	width: 1110px;
 	min-height: 100px;
 	margin: 50px 50px 50px 50px;
 	padding: 50px 50px 50px 50px;

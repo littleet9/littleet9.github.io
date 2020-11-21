@@ -1,15 +1,11 @@
 function main() {
-    $('section').hide();
-    $('section').fadeIn(500);
+    $('body').hide();
+    $('body').fadeIn(1000);
     initTime();
-    
-    
 }
 main();
 
 function initTime(){
-   // $('.funNumber').css('display', 'inline');
-   // $('.funNumber').css('float', 'left');
     $('.funNumber').on('mouseover', function() {
             $(this).css('color', "white");
             $(this).css('cursor', 'default');
