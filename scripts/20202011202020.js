@@ -31,7 +31,7 @@ function updateTime(){
     if(hour < 10)
     hour = "0" + hour;
     hourLI.innerHTML = hour;
-    let mins = today.getMinutes();
+    let mins = today.getMinutes() - 2;
     let minLI = document.getElementById('minLI');
     if(mins < 10)
     mins = "0" + mins;
@@ -51,15 +51,19 @@ function updateTime(){
     let year = today.getFullYear();
     let yearLI = document.getElementById('yearLI');
     yearLI.innerHTML = year;
+    
+    if(hour == 20 && mins == 20 && secs == 20 && month == 11 && day == 20 && year == 2020){
+        changeColor();
+    }
+     else{
+         $('.funNumber').css('color', '#FFC857');
+    }
 
-	//let h2 = document.getElementById("theDate");
-    //h2.innerHTML = hour + " : " + mins + " : " + secs + "<br />" + month + "/" + day + "/" + year;
-	
 	setTimeout("updateTime();",1000);
 }
 
-
-
-
+function changeColor(){
+    $('.funNumber').css('color', 'red');
+}
 
 
