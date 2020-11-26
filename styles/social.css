@@ -1,5 +1,5 @@
 body {
-	background: black url("../media/mountainrange.png") no-repeat right bottom;
+	background: black url("../media/LinvilleFall.jpg") no-repeat center;
 }
 h1 {
 	font-size: 36px;
@@ -21,15 +21,26 @@ article section{
 	padding: 0px 0px 0px 0px;
 	min-width: 961px;
 }
+article section img{
+	vertical-align: middle;
+	max-height: 280px;
+	max-width: 300px;
+	min-height: 200px;
+}
 .buttonImage {
 	width: 50px;
 	height: 170px;
 }
 button {
-	margin: 131px 10px 131px 10px;
 	background-color: rgba(0, 0, 0, 0%);
 	border-width: 0px;
 	vertical-align: bottom;
+}
+#ytprevButton, #ytnextButton {
+	margin: 131px 10px 131px 10px;
+}
+#ccfprevButton, #ccfnextButton {
+	margin: 51px 10px 51px 10px;
 }
 button:focus {
     outline: black auto 0px;
