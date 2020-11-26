@@ -17,14 +17,23 @@ article {
 }
 article section{
 	text-align: center;
+
+}
+.buttonImage {
+	width: 50px;
+	height: 170px;
+}
+button {
+	margin: 203px 10px 203px 10px;
+	background-color: rgba(0, 0, 0, 0%);
+	border-width: 0px;
+	vertical-align: bottom;
+}
+button:focus {
+    outline: black auto 0px;
 }
 p {
 	padding: 2px 10px 2px 10px;
 	font-size: 16px;
 } 
-#professionalPhoto {
-	float: right;
-}
-#namePhoto {
-	text-align: right;
-}
+

@@ -13,6 +13,14 @@ main();
 
 function initYTVideos(){
 	checkArrayBounds();
+	$('.ytButtons').on('mouseover', function(){
+		$(this).css('cursor', 'pointer');
+	}).on('mouseout', function(){
+		$(this).css('cursor', 'default');
+	}).on('click', function(){
+		
+	});
+
 	$('#ytprevButton').on('click', function(){
 		if(ytCounter > 0)
 			ytCounter--;
