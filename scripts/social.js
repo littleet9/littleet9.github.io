@@ -29,8 +29,12 @@ function initYTVideos(){
 		$('iframe').attr('src', videosIFrames[ytCounter]);
 		$('iframe').fadeIn(350);
 		checkArrayBounds();
+	}).on('mouseover', function(){
+		$(this).children().attr('src', 'media/prevButtonOver.png');
+	}).on('mouseout', function(){
+		$(this).children().attr('src', 'media/prevButton.png');
 	});
-
+	
 	$('#ytnextButton').on('click', function(){
 		if(ytCounter < videosIFrames.length-1)
 			ytCounter++;
@@ -39,6 +43,10 @@ function initYTVideos(){
 		$('iframe').attr('src', videosIFrames[ytCounter]);
 		$('iframe').fadeIn(350);
 		checkArrayBounds();
+	}).on('mouseover', function(){
+		$(this).children().attr('src', 'media/nextButtonOver.png');
+	}).on('mouseout', function(){
+		$(this).children().attr('src', 'media/nextButton.png');
 	});
 }
 
