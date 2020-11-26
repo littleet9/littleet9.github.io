@@ -133,7 +133,7 @@ function initNavLinks(){
 	//Resume
 	let resume = document.getElementById('resumeLink');
 	resume.addEventListener('click', ()=>{
-		window.open("../media/Resume2020.pdf", '_blank');
+		window.open("media/Resume2020.pdf", '_blank');
 	}, false);
 	resume.addEventListener('mouseover', ()=>{
 		resume.style.cursor = "pointer";

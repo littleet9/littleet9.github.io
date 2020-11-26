@@ -5,9 +5,10 @@
 		<meta charset="utf-8">
 		<title>Ethan Little's Hobbies</title>
 	<link rel="stylesheet" href="styles/default.css">
+	<link rel="stylesheet" href="styles/social.css">
 	<script defer src='scripts/jquery-3.5.1.min.js'></script>
 	<script defer src='scripts/nav.js'></script>
-	<script defer src='scripts/youtubeVideo.js'></script>
+	<script defer src='scripts/social.js'></script>
   </head>
 	<body id="socialPage">
 		<!-- Navigation -->
@@ -35,40 +36,13 @@
 					to help Camp Carefree with their online videos and activities the summer of 2020. So below are some of 
 					my videos from youtube.
 				</p>
-				<article>
-					<ul id = "youtubeVideosList">
-						<li>
-							<iframe width="512" height="288" src="https://www.youtube.com/embed/jCfda-MPo1k" 
-								allow="accelerometer; autoplay; clipboard-write; gyroscope; 
-								picture-in-picture" allowfullscreen >
-							</iframe>
-						</li>
-						<li>
-							<iframe width="512" height="288" src="https://www.youtube.com/embed/JCqiKOPuz84" 
-								allow="accelerometer; autoplay; clipboard-write; gyroscope; 
-								picture-in-picture" allowfullscreen>
-							</iframe>
-						</li>
-						<li>
-							<iframe width="512" height="288" src="https://www.youtube.com/embed/i7M80F-DS2M" 
-								allow="accelerometer; autoplay; clipboard-write; gyroscope; 
-								picture-in-picture" allowfullscreen>
-							</iframe>
-						</li>
-						<li>
-							<iframe width="512" height="288" src="https://www.youtube.com/embed/u-Fp1LZBS3Y" 
-								allow="accelerometer; autoplay; clipboard-write; gyroscope; 
-								picture-in-picture" allowfullscreen>
-							</iframe>
-						</li>
-						<li>
-							<iframe width="512" height="288" src="https://www.youtube.com/embed/zO6GOGCgt3g" 
-								allow="accelerometer; autoplay; clipboard-write; gyroscope; 
-								picture-in-picture" allowfullscreen>
-							</iframe>
-						</li>
-					</ul>
-				</article>
+				<section>
+					<button class="ytButtons" id="ytprevButton">&lt</button>
+					<iframe width="1024" height="576" src="https://www.youtube.com/embed/La7ve-SfxK0"
+						allow="accelerometer; autoplay; clipboard-write; gyroscope;" allowfullscreen >
+					</iframe>
+					<button class="ytButtons" id="ytnextButton">&gt</button>
+				</section>
 			</article>
 		</section>
 	</body>

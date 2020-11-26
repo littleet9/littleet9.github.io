@@ -130,6 +130,6 @@ function initSpineLeafDemo() {
         $(this).css('cursor', 'default');
     });
     document.getElementById('SpineLeafDemo').addEventListener('click', ()=>{
-        window.open('../media/SpineLeafDemo.gif', '_black');
+        window.open('media/SpineLeafDemo.gif', '_black');
     }, false);
 }
