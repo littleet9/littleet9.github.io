@@ -65,7 +65,6 @@ function initNav(){
 		resume.setAttribute('src', 'media/resumeLogo.png');
 		resume.setAttribute('height', '35%');
 		resume.setAttribute('width', '35%');
-		resume.setAttribute('tooltip', 'Resume');
 	let liResume = document.createElement('li');
 	liResume.appendChild(resume);
 	liResume.style.textAlign = "center";
@@ -74,8 +73,10 @@ function initNav(){
 	let hrBar = document.createElement('hr');
 	hrBar.color = "#FFC857";
 	hrBar.style.maxWidth = "100px";
+	hrBar.setAttribute('id', 'navHRBar');
 	hrBar.setAttribute('class', 'contact');
 	ulLinks.appendChild(hrBar);
+	
 	let contact = document.createElement('li');
 	contact.innerHTML = "Contact Me"
 	contact.setAttribute('class', 'contact');
@@ -230,6 +231,7 @@ function initNavButtons(){
 				break;
 			case('socialButton'):
 				ele.addEventListener('click', ()=>{
+					preLoadImage("media/LinvilleFall.jpg");
 					window.location.href = "social.html";
 				}, false);
 				break;

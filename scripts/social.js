@@ -9,6 +9,9 @@ let videosIFrames = ["https://www.youtube.com/embed/La7ve-SfxK0",
 					"https://www.youtube.com/embed/zO6GOGCgt3g"];
 
 function main() {
+	$('#socialSection').hide();
+	$('#socialSection').fadeIn(500);
+	
 	initSlideButtons();
 	initCCFPhotos();
 	initYTVideos();

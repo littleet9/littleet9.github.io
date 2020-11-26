@@ -3,22 +3,17 @@ body {
 }
 h1 {
 	font-size: 36px;
-	color: #FFC857;
-}
-h2 {
-	color: #FFC857;
 }
 hr {
 	border: 1px solid #FFC857;
+	margin: 5px 0px 5px 0px;
+}
+section {
+	background-color: rgba(0, 0, 0, 75%);
 }
 article {
 	padding: 2px 10px 30px 10px;
-	background-color: rgba(0, 0, 0, 75%);
 }
-p {
-	padding: 2px 10px 2px 10px;
-	font-size: 16px;
-} 
 #professionalPhoto {
 	float: right;
 }

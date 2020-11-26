@@ -8,6 +8,7 @@ h1 {
 }
 hr {
 	border: 1px solid #FFC857;
+	margin: 5px 0px 5px 0px;
 }
 section {
 	background-color: rgba(0, 0, 0, 75%);
