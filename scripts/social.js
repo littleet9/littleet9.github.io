@@ -31,9 +31,9 @@ function initCCFPhotos(){
 	$('#ccfprevButton').on('click', function(){
 		if(ccfCounter > 0)
 			ccfCounter--;
-		$('#ccfphoto1').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 1) + ".jpg");
-		$('#ccfphoto2').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 2) + ".jpg");
-		$('#ccfphoto3').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 3) + ".jpg");
+		$('#ccfphoto1').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 1) + ".JPG");
+		$('#ccfphoto2').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 2) + ".JPG");
+		$('#ccfphoto3').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 3) + ".JPG");
 		checkArrayBounds();
 	}).on('mouseover', function(){
 		$(this).children().attr('src', 'media/prevButtonOver.png');
@@ -44,9 +44,9 @@ function initCCFPhotos(){
 	$('#ccfnextButton').on('click', function(){
 		if(ccfCounter < ccfPhotos-1)
 			ccfCounter++;
-		$('#ccfphoto1').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 1) + ".jpg");
-		$('#ccfphoto2').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 2) + ".jpg");
-		$('#ccfphoto3').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 3) + ".jpg");
+		$('#ccfphoto1').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 1) + ".JPG");
+		$('#ccfphoto2').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 2) + ".JPG");
+		$('#ccfphoto3').attr('src', "media/CCFphotos/" + (ccfCounter * 3 + 3) + ".JPG");
 		checkArrayBounds();
 	}).on('mouseover', function(){
 		$(this).children().attr('src', 'media/nextButtonOver.png');
