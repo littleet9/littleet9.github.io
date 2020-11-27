@@ -72,7 +72,6 @@ function initNav(){
 	//Contact
 	let hrBar = document.createElement('hr');
 	hrBar.color = "#FFC857";
-	hrBar.style.maxWidth = "100px";
 	hrBar.setAttribute('id', 'navHRBar');
 	hrBar.setAttribute('class', 'contact');
 	ulLinks.appendChild(hrBar);
