@@ -39,3 +39,13 @@ button:focus {
 #socialSection {
 	background-color: rgba(0, 0, 0, 75%);
 }
+#ccfSection {
+	margin: 32px 16px 32px 16px;
+}
+/*--------------- Logos and Links ----------------*/
+#ccfLogo {
+	float: right;
+	height: 100px;
+	width: 160px;
+	padding: 10px 5px 10px 3px;
+}
