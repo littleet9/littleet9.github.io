@@ -15,8 +15,19 @@ function main() {
 	initSlideButtons();
 	initCCFPhotos();
 	initYTVideos();
+	initCampLink();
 }
 main();
+
+function initCampLink(){
+	$('#ccfLogo').on('mouseover', function() {
+		$(this).css('cursor', 'pointer');
+	}).on('mouseout', function() {
+		$(this).css('cursor', 'defualt');
+	}).on('click', function() {
+		window.open('http://www.campcarefree.org/', '_black');
+	});
+}
 
 function initSlideButtons(){
 	checkArrayBounds();

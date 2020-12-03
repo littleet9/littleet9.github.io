@@ -98,9 +98,9 @@ function initGitHubLogoLink() {
             width: 50
         }, 100, 'swing', ''); 
     });
-    // document.getElementById("githubLogo").addEventListener('click', ()=>{
-    //     window.open('https://www.ecrs.com/company/', '_black');
-    // }, false);
+    document.getElementById("gitHubResearch").addEventListener('click', ()=>{
+        window.open('https://github.com/HillBryan/ResearchTeam', '_black');
+    }, false);
 }
 
 function initSampleWebPage(){
@@ -118,12 +118,11 @@ function initSampleWebPage(){
         }, 100, 'swing', ''); 
     });
     document.getElementById("sampleWebPageLogo").addEventListener('click', ()=>{
-        window.open('http://54.163.160.207/server/src/htmls/volApplication1.html', '_black');
+        window.open('http://54.163.160.207/server/src/', '_black');
     });
 }
 
 function initSpineLeafDemo() {
-    console.log("hey");
     $('#SpineLeafDemo').on('mouseover', function() {
         $(this).css('cursor', 'pointer');
     }).on('mouseout', function() {
